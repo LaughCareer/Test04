@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="HowToEatSushi" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="396,551" sap2010:WorkflowViewState.IdRef="HowToEatSushi_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="HowToEatSushi" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="396,606" sap2010:WorkflowViewState.IdRef="HowToEatSushi_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -44,7 +44,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="HowToEatSushi" sap:VirtualizedContainerService.HintSize="376,451" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="HowToEatSushi" sap:VirtualizedContainerService.HintSize="376,546" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -52,6 +52,7 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:Comment DisplayName="Step 1" sap:VirtualizedContainerService.HintSize="334,55" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Cut a slice from the raw fish" />
     <ui:Comment DisplayName="Step 2" sap:VirtualizedContainerService.HintSize="334,55" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Put that slice on a small piece of rice" />
+    <ui:Comment DisplayName="Step 2.5" sap:VirtualizedContainerService.HintSize="334,55" sap2010:WorkflowViewState.IdRef="Comment_5" Text="Use chopsticks to pick up the Sushi" />
     <ui:Comment DisplayName="Step 3" sap:VirtualizedContainerService.HintSize="334,74" sap2010:WorkflowViewState.IdRef="Comment_3" Text="Dip the sushi piece onto the Japanese soybean sauce" />
     <ui:Comment DisplayName="Step 4" sap:VirtualizedContainerService.HintSize="334,55" sap2010:WorkflowViewState.IdRef="Comment_4" Text="And eat it" />
   </Sequence>
